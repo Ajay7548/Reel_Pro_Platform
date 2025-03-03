@@ -18,7 +18,7 @@ if(!cached){
     }
 }
 
-export async function connectToDatabse(){
+export async function connectToDatabase(){
     // Return cached connection if already connected
     if(cached.conn){
         return cached.conn
